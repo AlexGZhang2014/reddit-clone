@@ -7,9 +7,10 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- <%= yield :js %> -->
   </head>
 
-  <body>
+  <body class="links show">
     <% flash.each do |name, msg| %>
       <%= content_tag(:div, msg, class: "alert alert-#{name}") %>
     <% end %>
