@@ -5,7 +5,7 @@ ruby '2.5.1'
 
 #Add user authentication with Devise gem
 gem 'devise', '~> 4.4', '>= 4.4.1'
-
+gem 'record_tag_helper', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
@@ -21,6 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails'
 gem 'acts_as_votable', '~> 0.11.1'
+gem 'simple_form'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
